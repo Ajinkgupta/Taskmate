@@ -19,14 +19,11 @@ TaskMate is a web application designed to help users manage their tasks efficien
     *   [React Router DOM](https://reactrouter.com/) (v7) for routing
     *   [Tailwind CSS](https://tailwindcss.com/) for styling
     *   [Heroicons](https://heroicons.com/) for icons
-    *   [Headless UI](https://headlessui.com/) (Potentially for accessible UI components, though usage isn't explicit in provided files)
-*   **Backend:**
+ *   **Backend:**
     *   [Supabase](https://supabase.io/)
         *   Authentication
         *   PostgreSQL Database
-        *   Realtime Subscriptions
-*   **Linting:**
-    *   [ESLint](https://eslint.org/)
+        *   Realtime Subscriptions 
 
 ## Project Structure
 
@@ -58,7 +55,7 @@ TaskMate is a web application designed to help users manage their tasks efficien
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Ajinkgupta/Taskmate/
     cd Taskmate
     ```
 
@@ -85,8 +82,7 @@ TaskMate is a web application designed to help users manage their tasks efficien
         VITE_REACT_APP_SUPABASE_URL=YOUR_SUPABASE_URL
         VITE_REACT_APP_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
         ```
-    *   **Important:** Ensure `.env` is listed in your `.gitignore` file to avoid committing sensitive keys.
-
+ 
 5.  **Run the development server:**
     ```bash
     npm run dev
